@@ -1,0 +1,72 @@
+/* Header main */
+.header {
+  width: 100%;
+  background-color: #0f172a; /* dark blue */
+  padding: 16px 0;
+}
+
+/* Container */
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo section */
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Logo icon */
+.logo-icon {
+  width: 36px;
+  height: 36px;
+  background-color: #38bdf8;
+  border-radius: 8px;
+}
+
+/* Logo text */
+.logo-text {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Navigation */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+/* Nav links */
+.nav-links a {
+  text-decoration: none;
+  color: #cbd5f5;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: #ffffff;
+}
+
+/* Pro button */
+.pro-btn {
+  background-color: #38bdf8;
+  color: #0f172a !important;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.pro-btn:hover {
+  background-color: #0ea5e9;
+}
